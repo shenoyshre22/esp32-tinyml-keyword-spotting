@@ -45,12 +45,6 @@ In a full TensorFlow deployment, the final layer uses a **Softmax function** to 
 <img width="753" height="163" alt="image" src="https://github.com/user-attachments/assets/fd035fdd-c42b-4c28-b66a-1db382b8cbf3" />
 
 
-Microcontrollers require significant processing clock cycles to compute floating-point exponents. To maximize edge performance, this standalone C++ engine utilizes a fast, **un-amplified linear ratio** of the accumulators:
-
-\text{Linear Confidence} = \frac{\vert{}A_{\text{target}}\vert{}}{\vert{}A_{\text{no}}\vert{} + \vert{}A_{\text{yes}}\vert{}} \times 100\%
-
-Because the raw accumulated loop variables remain close in linear bounds, the resulting percentage stays humble and polarized compared to an exponential Softmax output.
-
 ---
 
 ## 🛠️ Project Structure
