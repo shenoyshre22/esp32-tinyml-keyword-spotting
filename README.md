@@ -37,7 +37,7 @@ The standalone simulation tests the performance and layout logic by feeding a pr
    <img width="704" height="152" alt="image" src="https://github.com/user-attachments/assets/e6799861-fba8-498b-96e8-6bf3e1b8eea4" />
    
   * **`YES` Characterization:** Indicated by a high-energy pattern in the higher frequency/hiss bands (r > 25 and 10 < c < 24).
-  * <img width="762" height="146" alt="image" src="https://github.com/user-attachments/assets/5c5c569b-d69e-46e3-9cea-23a6c4b65ca1" />
+   <img width="762" height="146" alt="image" src="https://github.com/user-attachments/assets/5c5c569b-d69e-46e3-9cea-23a6c4b65ca1" />
 
 
 ###  Why are the simulation confidence scores linear?
